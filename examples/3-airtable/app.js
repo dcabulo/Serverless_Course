@@ -18,7 +18,7 @@ const fetchProducts = async () => {
       .join("");
     result.innerHTML = products;
   } catch (error) {
-    result.innerHTML = "<h4>There was an error :(</h4>";
+    result.innerHTML = "<h4>There was an error </h4>";
   }
 };
 
